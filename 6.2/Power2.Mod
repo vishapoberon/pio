@@ -1,7 +1,7 @@
 MODULE Power2;
 IMPORT Oberon, Texts;
   VAR i: LONGINT; x, z: REAL; S: Texts.Scanner;
-  W : Texts.Writer;
+  W : Texts.Writer; 
 BEGIN Texts.OpenScanner(S, Oberon.Par.text, Oberon.Par.pos);Texts.Scan(S);
   Texts.OpenWriter(W);
    WHILE S.class = Texts.Real DO
