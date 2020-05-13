@@ -45,5 +45,5 @@ BEGIN Texts.OpenReader(R, Oberon.Par.text, Oberon.Par.pos); Texts.Read(R, ch);
 END Parse;
 
 BEGIN Texts.OpenWriter(W);
-  factor;
+  Parse;
 END Postfix.
