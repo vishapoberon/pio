@@ -11,7 +11,7 @@ MODULE TableHandler;
 	  next: Item
 	END;
 
-	Word* =  POINTER TO WirdDesc;
+	Word* =  POINTER TO WordDesc;
 	
 	WordDesc = RECORD
 	  key: ARRAY WordLength OF CHAR;
