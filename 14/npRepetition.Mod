@@ -10,7 +10,7 @@ BEGIN p := 1;
   RETURN p
 END np;
 
-BEGIN
+BEGIN 
   res := np(5);
   Out.String("res = "); Out.Int(res,0); Out.Ln;
 END npRepetition.
